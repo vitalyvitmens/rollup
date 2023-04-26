@@ -1,0 +1,26 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c -w",
+    "start": "rollup -c"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "Vitaly Menshikov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.4",
+    "@rollup/plugin-babel": "^6.0.3",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-styles": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.4"
+  }
+}
